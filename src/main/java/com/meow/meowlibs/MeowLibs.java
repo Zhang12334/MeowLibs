@@ -3,6 +3,11 @@ package com.meow.meowlibs;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class MeowLibs extends JavaPlugin {
+
+    // bstats
+    int pluginId = 25529;
+    Metrics metrics = new Metrics(this, pluginId);    
+
     @Override
     public void onEnable() {
         getLogger().info("   __  ___               __   _ __     ");
