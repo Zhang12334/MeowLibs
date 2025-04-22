@@ -1,4 +1,4 @@
-package com.meow.meowlibs;
+package com.meowlibs;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
